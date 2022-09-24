@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bcba769b.css",
-    "main.js": "/static/js/main.f1692d6e.js",
+    "main.css": "/static/css/main.bf1c04e8.css",
+    "main.js": "/static/js/main.fabcccf8.js",
     "static/js/27.29a4f396.chunk.js": "/static/js/27.29a4f396.chunk.js",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
@@ -13,7 +13,6 @@
     "static/media/icon-dev.svg": "/static/media/icon-dev.ca8077e33cf78b946a3c1eee31edce37.svg",
     "static/media/icon-design.svg": "/static/media/icon-design.3de6364d78680255816568592272c76d.svg",
     "static/media/icon-photo.svg": "/static/media/icon-photo.ba0e27ec18530e0b6ef537df151c25df.svg",
-    "static/media/logo-partner.svg": "/static/media/logo-partner.f5ba275f40fc1e784c6a0a6bc5be8713.svg",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "static/media/icon-education.svg": "/static/media/icon-education.db7a0a81ec25076ab30aa266d586b090.svg",
     "static/media/icon-map-pic.svg": "/static/media/icon-map-pic.dc19102bca45cab313ec.svg",
@@ -29,7 +28,7 @@
     "static/media/triangle-top.svg": "/static/media/triangle-top.255e92caf8fbd7408791.svg"
   },
   "entrypoints": [
-    "static/css/main.bcba769b.css",
-    "static/js/main.f1692d6e.js"
+    "static/css/main.bf1c04e8.css",
+    "static/js/main.fabcccf8.js"
   ]
 }
