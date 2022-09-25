@@ -1,0 +1,48 @@
+.msg {
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+}
+.cls-1 {
+  fill: #e6e6e6;
+}
+.cls-2 {
+  fill: #fddbbb;
+}
+.cls-3 {
+  fill: #f2f2f2;
+}
+.cls-4 {
+  fill: #424242;
+}
+.cls-5 {
+  fill: gray;
+}
+.cls-6 {
+  fill: #b35730;
+}
+.cls-7 {
+  fill: #eb7d86;
+}
+.zen {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease-in;
+}
+@keyframes floating {
+  0% {
+    left: 0px;
+    top: 20px;
+  }
+  50% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 20px;
+  }
+}

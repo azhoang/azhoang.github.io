@@ -1,0 +1,73 @@
+{
+  "name": "vcard",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://azhoang.github.io",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "@tanstack/react-query": "^4.3.7",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.59",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-syntax-highlighter": "^15.5.5",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.1",
+    "chart.js": "^3.9.1",
+    "chartjs-chart-wordcloud": "^3.9.1",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.5",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-loading-skeleton": "^3.1.0",
+    "react-markdown": "^8.0.3",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-router-dom": "^6.4.0",
+    "react-scripts": "5.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-tagcloud": "^2.3.1",
+    "react-wordcloud": "https://github.com/chrisrzhou/react-wordcloud.git",
+    "remark-emoji": "^3.0.2",
+    "remark-gfm": "^3.0.1",
+    "remark-grid-tables": "^2.1.2",
+    "remark-toc": "^8.0.1",
+    "typescript": "^4.8.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "release": "./release/deploy.sh",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-tagcloud": "^1.1.7",
+    "gh-pages": "^4.0.0",
+    "sass": "^1.54.9"
+  }
+}
