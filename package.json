@@ -43,7 +43,6 @@
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "release": "./release/deploy.sh",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
