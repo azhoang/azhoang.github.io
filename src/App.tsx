@@ -1,42 +1,13 @@
-import { useRoutes } from "react-router-dom";
-import About from "./pages/about/About";
-import Blog from "./pages/blog/Blog";
-import BlogContent from "./pages/blog/components/BlogContent";
-import MasterPage from "./pages/layouts/MasterPage";
-import Resume from "./pages/resume/Resume";
+import { HashRouter } from "react-router-dom";
+
+import Routes from "./routes";
 
 function App() {
-  let routes = useRoutes([
-    {
-      path: "/",
-      element: <MasterPage />,
-      children: [
-        {
-          index: true,
-          element: <About />,
-        },
-        {
-          path: "resume",
-          element: <Resume />,
-        },
-        {
-          path: "blog",
-          children: [
-            {
-              index: true,
-              element: <Blog />,
-            },
-            {
-              path: ":id",
-              element: <BlogContent />,
-            },
-          ],
-        },
-        // { path: "*", element: <NotFound /> },
-      ],
-    },
-  ]);
-  return routes;
+  return (
+    <HashRouter>
+      <Routes />
+    </HashRouter>
+  );
 }
 
 export default App;
