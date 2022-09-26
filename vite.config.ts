@@ -23,7 +23,7 @@ const existSpecificVendor = (vendor: string): boolean => {
  */
 function renderChunks(deps: Record<string, string>) {
   const chunks = {};
-  const listLibs = Object.keys(deps);
+  const listLibs = Object.keys(deps).filter((key) => !existSpecificVendor(key));
   const total = listLibs.length;
   const pageSize = 5;
   const pages = Math.ceil(total / pageSize);
@@ -31,9 +31,7 @@ function renderChunks(deps: Record<string, string>) {
   for (let pageIndex = 0; pageIndex < pages; pageIndex++) {
     const from = pageIndex * pageSize;
     const to = (pageIndex + 1) * pageSize;
-    const libs = listLibs
-      .slice(from, to)
-      .filter((key) => !existSpecificVendor(key));
+    const libs = listLibs.slice(from, to);
     chunks[libs.join("--")] = libs;
   }
   return chunks;
@@ -56,7 +54,7 @@ export default defineConfig({
           ...specificVendor,
           ...renderChunks(dependencies),
         },
-        chunkFileNames: 'chunk-[hash].js',
+        chunkFileNames: "chunk-[hash].js",
       },
     },
   },
