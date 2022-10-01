@@ -24,7 +24,7 @@ export const info = {
       icon: "fa-solid fa-envelope fa-fw",
     },
     {
-      link: "https://goo.gl/maps/TZbAEuYiprj8yDGcA",
+      link: "https://t.me/zIEyijpkTSdcUELX",
       name: "Telegram",
       value: "@zIEyijpkTSdcUELX",
       icon: "fa-brands fa-telegram fa-fw",
