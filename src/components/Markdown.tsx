@@ -56,6 +56,7 @@ export default function Markdown(props: any) {
                 style={oneDark}
                 language={match[1]}
                 PreTag="div"
+                className="mh-100vh"
               />
             ) : (
               <code className={className} {...props}>

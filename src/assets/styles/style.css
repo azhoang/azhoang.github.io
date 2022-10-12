@@ -2632,3 +2632,6 @@ button:focus {
 .simplebar-content-wrapper {
   overflow: auto;
 }
+.mh-100vh{
+  max-height: 100vh;
+}
