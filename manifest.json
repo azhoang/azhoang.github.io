@@ -18,7 +18,8 @@
       "sizes": "512x512"
     }
   ],
-  "display": "Xuan Hoang",
+  "display": "standalone",
+  "scope": "/",
   "theme_color": "#000000",
   "background_color": "#ffffff",
   "id": "/?source=pwa",
